@@ -1,0 +1,17 @@
+ul {
+        background-color: red;
+        width: 120px;
+        display: inline-block;
+        height: 200px;
+        margin:5px;
+}
+
+li:first-child{
+    background:yellow
+    }
+li:nth-child(even) {
+  background: #dde;
+}
+li:nth-child(odd) {
+  background: white;
+}
